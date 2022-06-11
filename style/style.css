@@ -21,7 +21,7 @@ body {
 /*=============CONTAINER ===================*/
 
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 600px;
     height: 500px;
     margin-top: 1.5rem;
@@ -124,6 +124,18 @@ input::placeholder {
 /*================MEDIAS QUERIES===================*/
 
 @media (max-width: 500px) {
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    .container {
+        width: 95vw;
+        height: 95vh;
+    }
+    
     .container h1 {
         font-size: 2rem;
     }
@@ -133,7 +145,12 @@ input::placeholder {
     }
 
     .container input {
+        width: 95%;
         padding-left: 1rem;
+    }
+
+    .container #btn {
+        width: 95%;
     }
 }
 
