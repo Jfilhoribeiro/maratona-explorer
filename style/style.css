@@ -147,6 +147,10 @@ input::placeholder {
         font-size: .8rem;
     }
 
+    .container input {
+        padding-left: .5rem;
+    }
+
     input::placeholder {
         font-size: 1rem;
     }
