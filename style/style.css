@@ -133,7 +133,8 @@ input::placeholder {
 
     .container {
         width: 95vw;
-        height: 80vh;
+        height: 90vh;
+        margin-top: 0;
     }
     
     .container h1 {
