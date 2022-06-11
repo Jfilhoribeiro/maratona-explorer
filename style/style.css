@@ -150,6 +150,10 @@ input::placeholder {
         padding-left: 1rem;
     }
 
+    .container #error-message {
+        font-size: 1.2rem;
+    }
+
     .container #btn {
         width: 95%;
     }
@@ -179,7 +183,7 @@ input::placeholder {
 
 
     .container #error-message {
-        font-size: .7rem;
+        font-size: .9rem;
     }
     
 
@@ -189,7 +193,7 @@ input::placeholder {
     }
 
     .container #result div {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
 }
