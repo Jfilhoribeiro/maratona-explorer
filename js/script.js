@@ -2,6 +2,7 @@
 const question = document.querySelector('#question-input')
 const result = document.querySelector('#result')
 const errorMessage = document.querySelector('#error-message')
+const buttonResposta = document.querySelector('#btn')
 
 const respostas = [
     "Certeza!",
@@ -30,6 +31,8 @@ function revelarDestino() {
     //gerando um valor aleatório que vai ser o indice de uma das respostas dentro do array de resposta
     const randomAnswer = Math.floor(Math.random() * respostas.length)
 
+    //desabilita o botão
+    buttonResposta.setAttribute('disabled', true)
     //verificando se o valor inserido no input esta vazio
     if( question.value.length == 0 || question.value == ' ' || Number(question.value) ) {
         errorMessage.textContent = 'Inválido! Digite uma pergunta.'
@@ -61,6 +64,7 @@ question.addEventListener("keyup", function(event) {
 function clearResult() {
     setTimeout(() => {
         result.style.opacity = '0'
+        buttonResposta.removeAttribute('disabled')
     }, 3000)
 }
   
