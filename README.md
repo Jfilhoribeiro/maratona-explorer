@@ -8,4 +8,5 @@
 - JAVASCRIPT
 
 ## Este foi meu resultado para o projeto, fazendo alterações do projeto proposto:
-### [](https://jfilhoribeiro.github.io/maratona-explorer/)
+### [Link de acesso](https://jfilhoribeiro.github.io/maratona-explorer/)
+![](https://user-images.githubusercontent.com/87453124/174064793-69e41f13-555b-4837-bf1b-8e50ec6f09b7.png)
